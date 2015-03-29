@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+area{
+    outline:none;
+}
+.m_header{
+    background: #1f2229
+}
+.m_content{
+    width: 100%; 
+    height:auto;
+    position: relative; 
+    overflow: hidden; 
+    display: block;
+}
+.mc_header{
+    background:#2f3f56 url("img/mobile/m_1bg.jpg") center center no-repeat;
+}
+.m_content img{
+    display:block;
+    border: 0;
+    width:100%;
+}
+.m_content a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.m_wcenter,.m_center{
+    width:990px;
+    height:auto;
+    margin:0 auto;
+    overflow:hidden;
+}
+.mc_2{
+    background: url("../img/mobile/m_3bg.jpg") top center no-repeat;
+}
+.mc_3{
+    background:#def7ed;
+}
+.mc_4{
+    background: url("../img/mobile/m_4bg.jpg") top center no-repeat;
+}
+.mc_5{
+    background: url("../img/mobile/m_5bg.jpg") top center no-repeat;
+}
+.mc_6{
+    background: url("../img/mobile/m_6bg.jpg") top center no-repeat;
+}

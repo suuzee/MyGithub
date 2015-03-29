@@ -1,0 +1,219 @@
+.l_center{
+	width: 990px;
+	margin: 0 auto;
+}
+
+/*
+	header
+*/
+body{
+	background:  #fff;
+	font-size:  12px;
+	color: #606060;
+}
+#header{
+	height: 80px;
+	width: 100%;
+	background: #b41700;
+}
+#header_inner{
+	height: 80px;
+	position: relative;
+}
+#header_inner div{
+	width: 142px;
+	height: 20px;
+	position: absolute;
+	left: 40px;
+	bottom: 30px;
+}
+#header img{
+	width: 142px;
+	height: 20px;
+}
+
+/*
+	content
+*/
+
+#content{
+	height:  408px;
+	padding-top:  50px;
+}
+.lc_img{
+	width: 528px;
+	height:  276px;
+	float:  left;
+}
+.lc_img img{
+	margin-left: 93px;
+}
+
+.lc_form{
+	width: 312px;
+	height: 388px;
+	float: left;
+	background: url(../img/login/lc_formbg.png) no-repeat top center;
+	padding-top: 20px;	
+}
+.lc_form a{
+	color:  #36c;
+}
+.lc_form_inner{
+	height:  213px;
+	width:  320px;
+	padding-bottom:  41px;
+	background:  url(../img/login/lc_form_innerbg.png) no-repeat bottom center;
+	/*border:  1px solid #c8c8c8;*/
+}
+.lc_form_box1{
+	width:  308px;
+	height: 210px;
+	border:  1px solid #c8c8c8;
+	margin-left:  5px;
+}
+.lc_form_box{
+	width:  252px;
+	height:  161px;
+	padding:  25px 26px 20px 26px;
+	border: 2px solid #f5f5f5;
+}
+.lc_form_box label{
+	width: 252px;
+	height: 21px;
+	display:  block;
+	line-height:  21px;
+	float:  left;
+}
+.lcfb_password label a{
+	float:  right;
+}
+.lc_form_box input{
+	width: 242px;
+	height: 18px;
+	padding: 3px;
+	border: 1px solid #c8c8c8;
+}
+.lcfb_button{
+	width: 254px;
+	height:  30px;
+	display: block;
+	color:  #fff;
+	background:  url(../img/login/lc_form_buttonbg.png) no-repeat;
+	background-position:  0 0;
+	border: none;
+	margin-top:  10px;
+	font-size:  14px;
+	font-weight:  bold;
+	cursor:  pointer;
+}
+#footer  a:hover{
+	background-position: 0 -32px;
+}
+.lcfb_register{
+	width: 50px;
+	height:  20px;
+	line-height:  20px;
+	padding-left: 200px;
+}
+
+
+/*
+	footer
+ */
+
+#footer{
+	width: 100%;
+	border-top: 1px solid #d1d7dc;
+	padding-top: 15px;
+	position: relative;
+}
+.f_desc{
+	height: 184px;
+	color: #666;
+	position: relative;
+}
+.f_desc span{
+	width: 73px;
+	height: 19px;
+	display: block;
+	background: url(../img/login/footerbg1.png) no-repeat;
+}
+#footer .fdd_baozhang{
+	background-position: -73px -193px;
+}
+#footer .fdd_xinshou{
+	background-position: -73px -212px;
+}
+#footer .fdd_zhifu{
+	background-position: 0 -193px;
+}
+#footer .fdd_shangjia{
+	background-position: 0 -212px;
+}
+.f_desc dl{
+	width: 220px;
+	float: left;
+}
+.f_desc dl a{
+	color: #666;
+}
+.fd_shangjia a.fdd_first{
+	color: #36c;
+}
+.f_desc dl dt{
+	width: 180px;
+	height: 19px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #d1d7dc;
+}
+.f_desc dl dd{
+	width: 180px;
+	height: 22px;
+	line-height: 22px;
+}
+.fd_zhifu{
+	margin-left: 145px;
+}
+dl.fd_shangjia{
+	width: 180px;
+}
+#footer h4{
+	height: 81px;
+	width: 81px;
+	position: absolute;
+	top: 20px;
+	left: 420px;
+}
+#footer h4 a{
+	width: 81px;
+	height: 81px;
+	display: block;
+	background: url(../img/login/footerbg2.png) no-repeat;
+}
+#footer h4 a:hover{
+	text-decoration: none;
+}
+.f_copyright{
+	text-align: center;
+}
+.f_copyright a{
+	margin-right: 1px;
+	color: #36c;
+}
+.f_copyright p.f_p1{
+	height: 28px;
+	line-height: 28px;
+}
+.f_copyright p.f_p2{
+	width: 930px;
+	height: 46px;
+	padding: 0 30px;
+	line-height: 20px;
+}
+.f_copyright p.f_p3{
+	height: 100px;
+	line-height: 18px;
+	color: #000;
+	font-size: 13px;
+}

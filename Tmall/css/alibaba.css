@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a_center{
+    width: 960px;
+    margin: 0 auto;
+}
+#a_header{
+    height: 65px;
+    padding-top: 30px;
+}
+.ah_logo{
+    float: left;
+}
+.ah_search{
+    width: 462px;
+    height: 28px;
+    margin-top: 6px;
+    float: right;
+}
+.ahs_search{
+    width: 232px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #999;
+    float: left;
+}
+.ahs_search input{
+    width: 180px;
+    height: 28px;
+    border: none;
+    /*padding: 1px 0;*/
+    /*margin-top: -10px;*/
+}
+.ahs_search button{
+    width: 52px;
+    height: 28px;
+    border: none;
+    background: url(../img/alibaba/ah_search.png) no-repeat center center;
+    /*margin-top: 5px;
+    margin-right: 20px;*/
+    display: block;
+    float: right;
+}
+.ahs_platform{
+    float: left;
+    width: 144px;
+    height: 28px;
+}
+.ahs_platform select{
+    width: 144px;
+    height: 28px;
+    border: none;
+    color: #f60;
+    /*margin-left: -5px;
+    margin-top: -25px;*/
+    margin-left: 20px;
+}
+.ahs_language{
+    float: left;
+    width: 36px;
+    height: 28px;
+}
+.ahs_language select{
+    width: 44px;
+    height: 28px;
+    border: none;
+    color: #f60;
+    margin-left: 20px;
+}
+#a_nav{
+    height: 68px;
+    background: url(../img/alibaba/a_navbg.png) repeat-x;
+}
+.an_nav{
+    list-style: none;
+    height: 68px;
+}
+.an_nav li{
+    float: left;
+    width: 199px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    color: #fff ;
+}
+#a_content{
+    background: #efefce;
+}
+#a_footer{
+   height: 445px;
+   background: #f60; 
+   font-size: 12px;
+   color: #fff;
+}
+.af_footer{
+    height: 400px;
+    padding-top: 45px;
+}
+.aff_logo{
+    width: 189px;
+    height: 32px;
+    float: left;
+}
+.aff_right{
+    width: 723px;
+    height: 247px;
+    float: left;
+    margin-left: 33px;
+}
+.aff_right dl{
+    width: 177px;
+    float: left;
+}
+.aff_right dl dt,.aff_right dl dd{
+    height: 20px;
+    width: 177px;
+    line-height: 20px;
+}
+.aff_right dl dt{
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.aff_right dl a{
+    color: #fff;
+    text-decoration: none;
+}
+.aff_right dl a:hover{
+    text-decoration: underline;
+}
+.aff_bottom{
+    height: 52px;
+    margin-top: 347px;
+    border-top: 1px solid #fff;
+}
+.aff_bottom p{
+    text-align: center;
+    padding-top: 20px;
+}
+.aff_bottom p a{
+    color: #fff;
+    text-decoration: none;
+}
+.aff_bottom p a:hover{
+    text-decoration: underline;
+}
